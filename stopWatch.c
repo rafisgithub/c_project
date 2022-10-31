@@ -2,12 +2,13 @@
 #include <time.h>
 int main()
 {
-    printf("*#This is a stopwatch#*\n\n\n");
-    printf("**Press 'p' to pause.\n");
-    printf("**Press any key to start & to stop.");
+	printf("\n\n\n\n\n\n");
+    printf("          --------This is a stopwatch---------\n\n\n");
+    printf("                 Press 'p' to pause.\n");
+    printf("                 Press any key to start & to stop.");
     getch();
     system("cls");
-    printf("\t\t*#This is a stopwatch#*\n\n\n");
+    printf("\t\t                 This is a stopwatch\n\n\n");
 
     clock_t s, n;
     s = clock();
