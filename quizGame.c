@@ -446,9 +446,10 @@ game:
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is C.The King's Speech");getch();goto score;
+		       {printf("\n\nWrong!!! The correct answer is B.The King's Speech");getch();goto score;
 		       break;}
 		}}
+		
 	score:
     system("cls");
 	score=(float)countr*100000;
